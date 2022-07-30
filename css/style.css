@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    border: 0;
+}
+.container-dark{
+    width: 100%vh;
+    background-color: #1e1e1e;
+}
+
+.container{
+    width: 1600px;
+    margin: auto;
+    background-color: #111111;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 4fr;    
+    color: #ffff;
+    font-family: poppins;
+}
+
+.company-logo{
+    padding-left: 4rem;
+    padding-top: 2rem;
+}
+
+.navigation-items{
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(5,1fr);
+    /* border: red solid; */
+    margin-top: 3rem;
+    width: 50rem;
+    margin-left: 15rem;
+}
+.section-1{
+    display: grid;
+    grid-template-columns: 1fr 2fr;    
+    /* border: green solid ; */
+    color: white;
+}
+
+.model-photo{
+    width: 700px;    
+}
+
+.section-1-righ>h4{
+    font-family: Montserrat;
+    color: #f43140;
+    margin-top: 200px;
+}
+
+.section-1-righ>h1{
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.section-1-righ>.desc{
+    color: #ffffff;
+    font-family: Poppins;
+    font-weight: 400;
+    width: 550px;
+    /* border: solid; */
+    margin-top: 0;
+}
+.section-1-righ>.about-me{
+    position: relative;
+    width: 180px;
+    height: 50px;
+    color: #ffffff;
+    background-color: #c91b28;
+    margin-top: 30px;
+}
+
+.section-2{
+    background-image: url(../images/Background.svg);
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    /* border: pink solid;     */
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.service-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;    
+    /* border: green solid; */
+    justify-content: space-between;
+    justify-items: center;
+    margin-left: 320px;
+    margin-right: 320px;
+    padding-top: 100px;
+}
+
+.service-card{
+    width: 250px;
+    height: 280px;
+    /* border: #ffffff solid; */
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: Montserrat;
+    padding-left: 45px;
+    padding-top: 60px;
+}
+.service-card:hover{
+    background-color: #c91b28;
+    color: #fffff;    
+}
+
+.service-card > .heading{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.service-card > .desc{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.service-card > .know-more{
+    font-size: 13px;
+    color: #c91b28;
+    margin-top: 20px;
+}
