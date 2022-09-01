@@ -36,6 +36,7 @@
     flex-direction: row;
     list-style: none;
     column-gap: 4em;
+    padding-right: 2em;
 }
 .mobile-menu-icon {
     display: none;
@@ -140,7 +141,10 @@
     margin-top: 20px;
     background-color: #1e1e1e;
 }
-
+.service-card:hover > h2 {
+    color: #fff;
+    background-color: #c91b28;
+}
 /* END of section 2 */
 
 /* START Of Section 3  */
@@ -360,8 +364,10 @@
 
 @media (max-width: 768px) {
     /* START OF Navigation - Media Query */
-    .menu-icon{
-        margin-right: 1em;
+    .menu-icon {
+        position: fixed;
+        top: 4%;
+        left: 88%;
     }
     .navigation-items {
         display: none;
@@ -388,7 +394,7 @@
         margin-top: 2em;
     }
 
-    .section-1-righ > .desc{
+    .section-1-righ > .desc {
         padding: 0 1em 0 1em;
     }
     /* END OF Section 1  - Media Query*/
